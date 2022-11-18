@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  /* background: #000; */
+  margin: 0px;
+  overflow: hidden;
+  color: #222;
+  background: #fff;
+}
+
+.wrapper .display{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background: transparent;
+  border-radius: 6px;
+  text-align: center;
+}
+.display #time{
+  
+  color: rgb(0, 0, 0);
+  font-size: 340px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, red, green, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+#frase{
+  color: rgb(0, 0, 0);
+  font-size: 160px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: center;
+  background: linear-gradient(135deg, red, #eb3b, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.center{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#TimeZone{
+  opacity: 0;
+}
